@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>KevlarMacialKek</defName>
+        <label>Magical Kevlar</label>
+        <description>Kevlar with much better armor characteristics.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Cloth</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(70, 0, 70)</color>
+        </graphicData>
+        <statBases>
+            <Bulk>0.05</Bulk>
+			<WornBulk>0.5</WornBulk>
+            <MaxHitPoints>200</MaxHitPoints>
+            <MarketValue>9</MarketValue>
+            <Mass>0.75</Mass>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <StuffPower_Armor_Sharp>2.50</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.80</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Electric>0.05</StuffPower_Armor_Electric>
+            <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+        </statBases>
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <minRewardCount>30</minRewardCount>
+        <stuffProps>
+        <categories>
+            <li>Fabric</li>
+            <li>SoftArmor</li>
+        </categories>
+        <commonality>0.10</commonality>
+        <color>(70, 0, 70)</color>
+        <statFactors>
+            <Flammability>0</Flammability>
+            <MaxHitPoints>2.4</MaxHitPoints>
+            <Beauty>2.5</Beauty>
+        </statFactors>
+        </stuffProps>
+        <thingCategories>
+        <li>Textiles</li>
+        </thingCategories>
+        <tradeTags>
+        <li>ExoticMisc</li>
+        </tradeTags>
+
+
+        <costList>
+            <Cloth>10</Cloth>
+            <Chemfuel>30</Chemfuel>
+          </costList>
+          <recipeMaker>
+            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+            <workSkill>Intellectual</workSkill>
+            <recipeUsers>
+              <li>HandTailoringBench</li>
+              <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+              <Intellectual>8</Intellectual>
+            </skillRequirements>
+          </recipeMaker>
+    </ThingDef>
+
+    <ThingDef ParentName="ResourceBase">
+        <defName>KevlarKek</defName>
+        <label>Kevlar</label>
+        <description>Kevlar.</description>
+        <graphicData>
+            <texPath>Things/Item/Resource/Cloth</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <color>(255, 255,191)</color>
+        </graphicData>
+        <statBases>
+            <Bulk>0.05</Bulk>
+			<WornBulk>0.5</WornBulk>
+            <MaxHitPoints>200</MaxHitPoints>
+            <MarketValue>9</MarketValue>
+            <Mass>0.75</Mass>
+            <Flammability>0.4</Flammability>
+            <DeteriorationRate>1.0</DeteriorationRate>
+            <StuffPower_Armor_Sharp>0.89</StuffPower_Armor_Sharp>
+            <StuffPower_Armor_Blunt>0.80</StuffPower_Armor_Blunt>
+            <StuffPower_Armor_Heat>0.05</StuffPower_Armor_Heat>
+			<StuffPower_Armor_Electric>0.05</StuffPower_Armor_Electric>
+            <StuffPower_Insulation_Cold>26</StuffPower_Insulation_Cold>
+            <StuffPower_Insulation_Heat>26</StuffPower_Insulation_Heat>
+        </statBases>
+        <burnableByRecipe>true</burnableByRecipe>
+        <healthAffectsPrice>false</healthAffectsPrice>
+        <minRewardCount>30</minRewardCount>
+        <stuffProps>
+        <categories>
+            <li>Fabric</li>
+            <li>SoftArmor</li>
+        </categories>
+        <commonality>0.10</commonality>
+        <color>(255, 255,191)</color>
+        <statFactors>
+            <Flammability>0</Flammability>
+            <MaxHitPoints>2.4</MaxHitPoints>
+            <Beauty>2.5</Beauty>
+        </statFactors>
+        </stuffProps>
+        <thingCategories>
+        <li>Textiles</li>
+        </thingCategories>
+        <tradeTags>
+        <li>ExoticMisc</li>
+        </tradeTags>
+
+
+        <costList>
+            <Cloth>5</Cloth>
+            <Chemfuel>15</Chemfuel>
+          </costList>
+          <recipeMaker>
+            <workSpeedStat>DrugSynthesisSpeed</workSpeedStat>
+            <workSkill>Intellectual</workSkill>
+            <recipeUsers>
+              <li>HandTailoringBench</li>
+              <li>ElectricTailoringBench</li>
+            </recipeUsers>
+            <skillRequirements>
+              <Intellectual>8</Intellectual>
+            </skillRequirements>
+          </recipeMaker>
+    </ThingDef>
+</Defs>
